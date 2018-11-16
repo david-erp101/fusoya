@@ -8,4 +8,5 @@
   :plugins [[lein-environ "1.1.0"]]
   :profiles {:dev [:profiles/dev]
              :profiles/dev {}}
-  :main fusoya.core)
+  :main fusoya.core
+  :min-lein-version "2.8.1")
