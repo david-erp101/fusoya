@@ -6,7 +6,6 @@
   )
 
 (defn handler [req]
-  (pprint req)
   (redirect (str (env :destination-host) (:uri req)) :moved-permanently))
 
 (defn -main [& [port]]

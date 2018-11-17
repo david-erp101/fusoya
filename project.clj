@@ -9,4 +9,4 @@
   :profiles {:dev [:profiles/dev]
              :profiles/dev {}}
   :main fusoya.core
-  :min-lein-version "2.8.1")
+  :min-lein-version "2.7.1")
